@@ -35,7 +35,7 @@ const DashboardMain = () => {
   const card2 = [
     {
       icon: <img src={weight} />,
-      text: "Weight"
+      text: "Weight 58kg"
     },
     {
       icon: <img src={lang} />,
@@ -105,10 +105,10 @@ const DashboardMain = () => {
                 <img src={avartar} alt="Avatar" />
                 <p>Jacob Jones</p>
                 <p>25 years</p>
-                <div>
+                <div className="flex gap-5 mt-10">
                   {card2.map((item, index) => (
-                    <div key={index}>
-                      <div>
+                    <div key={index} className=" flex">
+                      <div className="flex flex-col items-center bg-[#D9D9D9] p-3 rounded-lg text-black gap-1">
                          {item.icon}  
                          {item.text}
                       </div>
@@ -118,7 +118,13 @@ const DashboardMain = () => {
 
               </div>
             </div>
-            <div className="border-8 rounded-lg">wedwdwdejbjbdd</div>
+            <div className="border-8 rounded-lg">
+             <div className=" p-6">upcoming Appointment</div>
+            
+            
+            
+            
+            </div>
             <div className="border-8 rounded-lg">rfgrgyr</div>
           </div>
         </div>
