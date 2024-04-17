@@ -105,31 +105,32 @@ const DashboardMain = () => {
                 <img src={avartar} alt="Avatar" />
                 <p>Jacob Jones</p>
                 <p>25 years</p>
-                <div className="flex gap-5 mt-10">
+                <div className="grid grid-cols-3 justify-between gap-1 mt-10">
                   {card2.map((item, index) => (
-                    <div key={index} className=" flex">
-                      <div className="flex flex-col items-center bg-[#D9D9D9] p-3 rounded-lg text-black gap-1">
-                         {item.icon}  
-                         {item.text}
-                      </div>
+                    <div key={index} className="flex flex-col items-center text-center bg-[#D9D9D9] p-3 rounded-lg text-black gap-1">
+                       {item.icon}  
+                       {item.text}
                     </div>
                   ))}
                 </div>
-
               </div>
             </div>
-            <div className="border-8 rounded-lg">
-             <div className=" p-6">upcoming Appointment</div>
-            
-            
-            
-            
+            <div className="border-8 rounded-lg grid grid-rows-2 gap-5 h-[30vh] items-center justify-center">
+              <div className="p-3 bg-[#D9D9D9] rounded-lg text-black">Upcoming Appointment</div>
+              <div className=" bg-white text-black p-5 rounded-lg">
+                <p>Session with Dr Lu</p>
+                <hr />
+                <p>Community Support</p>
+                <p>Support</p>
+                <p>Meetings</p>
+                <hr />
+                <p>Yoga</p>
+              </div>
             </div>
-            <div className="border-8 rounded-lg">rfgrgyr</div>
           </div>
         </div>
       </div>
   )
 }
 
-export default DashboardMain
+export default DashboardMain;

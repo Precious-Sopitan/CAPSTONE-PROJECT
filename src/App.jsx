@@ -1,9 +1,16 @@
 import React from 'react'
-import Dashboard from './Pages/Dashboard'
+// import Dashboard from './Pages/Dashboard'
+import SignUp from './Pages/SignUp'
+
 
 const App = () => {
   return (
- <Dashboard/>
+    <div>
+ {/* <Dashboard/> */}
+<SignUp/>
+
+    </div>
+
   )
 }
 
