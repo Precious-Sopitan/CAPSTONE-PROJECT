@@ -3,6 +3,7 @@ import logo from "../assets/logo.svg";
 import bell from "../assets/bell.svg";
 import todayBtn from "../assets/Todaybtn.svg";
 import angry from "../assets/angry.svg";
+<<<<<<< Updated upstream
 import chart from "../assets/chart.svg";
 import datepicker from "../assets/datepicker.svg";
 import bigchart from "../assets/bigchart.svg";
@@ -10,6 +11,12 @@ import avartar from "../assets/avartar.svg";
 import weight from "../assets/weight.svg";
 import lang from "../assets/language.svg";
 import signout from "../assets/signout.svg";
+=======
+import chart from "../assets/chart.svg"
+import datepicker from "../assets/datepicker.svg"
+import bigchart from "../assets/bigchart.svg"
+import DashboardSideBar from "./DashboardSideBar";
+>>>>>>> Stashed changes
 
 const Dashboard = () => {
   const card = [
@@ -49,11 +56,19 @@ const Dashboard = () => {
   ];
 
   return (
+<<<<<<< Updated upstream
     <div className="flex flex-row h-screen">
       <div className="bg-white w-[100px] h-full">Placeholder</div>
       <div className="w-full flex flex-row h-full">
         <div className="w-[80%] h-full bg-[#EBF5FF] rounded-l-[30px] p-10">
           <div className="flex justify-between h-[5%]">
+=======
+    <div className="flex flex-row">
+      <DashboardSideBar/>
+      <div className="w-full  flex flex-row ">
+        <div className="w-[80%] bg-[#EBF5FF] rounded-l-[30px] p-10">
+          <div className=" flex justify-between">
+>>>>>>> Stashed changes
             <div>
               <img src={logo} alt="Logo" />
             </div>
