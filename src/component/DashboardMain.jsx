@@ -47,8 +47,8 @@ const DashboardMain = () => {
     }
   ];
   return (
-    <div className="w-full  flex flex-row ">
-        <div className="w-[80%] bg-[#EBF5FF] rounded-l-[30px] p-10">
+    <div className="w-full h-full min-h-screen flex flex-row ">
+        <div className="h-full min-w-[80%] bg-[#EBF5FF] rounded-l-[30px] p-5">
           <div className=" flex justify-between">
             <div>
               <img src={logo} alt="Logo" />
@@ -62,14 +62,14 @@ const DashboardMain = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white mt-10 leading-8 p-6 rounded-2xl shadow-md h-[15%]">
+          <div className="bg-white mt-10 leading-8 p-6 rounded-2xl shadow-md h-[auto] min-h-[15%]">
             <h2 className="font-bold text-[#233876] text-2xl">Hello, Jacob Jones</h2>
             <p>Welcome to Mindfull, your one-stop to sobriety</p>
             <h2 className="text-[#233876] font-semibold">Track your mood and daily activities</h2>
           </div>
-          <div className="flex flex-wrap items-center mt-2 h-[35%]">
+          <div className="grid grid-cols-3 justify-between gap-5 items-center mt-2 h-auto min-h-[35%]">
             {card.map((item, index) => (
-              <div key={index} className="w-[300px] h-full bg-white m-4 p-4 rounded-lg shadow-md">
+              <div key={index} className=" h-auto bg-white m-4 p-4 rounded-lg shadow-md">
                 <div className="flex justify-between items-center text-lg font-bold">
                   {item.emoji}
                   <p>{item.text}</p>
