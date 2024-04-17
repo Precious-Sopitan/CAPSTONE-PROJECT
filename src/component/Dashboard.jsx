@@ -110,18 +110,19 @@ const Dashboard = () => {
                 <p>Jacob Jones</p>
                 <p>25 years</p>
                 <div>
-                  {/* {card2.map((item, index) => (
+                  {card2.map((item, index) => (
                     <div key={index}>
                       <div>
                          {item.icon}  
                          {item.text}
                       </div>
                     </div>
-                  ))} */}
+                  ))}
                 </div>
+
               </div>
             </div>
-            <div className="border-8 rounded-lg">wedwdwdedd</div>
+            <div className="border-8 rounded-lg">wedwdwdejbjbdd</div>
             <div className="border-8 rounded-lg">rfgrgyr</div>
           </div>
         </div>
