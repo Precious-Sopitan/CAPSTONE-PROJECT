@@ -48,7 +48,7 @@ const DashboardMain = () => {
   ];
   return (
     <div className="w-full h-full min-h-screen flex flex-row ">
-        <div className="h-full min-w-[80%] bg-[#EBF5FF] rounded-l-[30px] p-5">
+        <div className="h-full min-w-[65%] bg-[#EBF5FF] rounded-l-[30px] p-5">
           <div className=" flex justify-between">
             <div>
               <img src={logo} alt="Logo" />
@@ -98,7 +98,7 @@ const DashboardMain = () => {
             </ul>
           </div>
         </div>
-        <div className="w-[20%] h-full bg-[#233876] rounded-l-[30px] p-10 font-semibold">
+        <div className="w-[35%] h-auto bg-[#233876] rounded-l-[30px] p-10 font-semibold">
           <div className="flex flex-col gap-12 text-white">
             <div className="border-8 rounded-lg p-3">
               <div className="flex flex-col items-center py-5">
@@ -115,7 +115,7 @@ const DashboardMain = () => {
                 </div>
               </div>
             </div>
-            <div className="border-8 rounded-lg grid grid-rows-2 gap-5 h-[30vh] items-center justify-center">
+            <div className="border-8 rounded-lg flex flex-col p-5 gap-5 h-auto min-h-[30vh] items-center justify-center">
               <div className="p-3 bg-[#D9D9D9] rounded-lg text-black">Upcoming Appointment</div>
               <div className=" bg-white text-black p-5 rounded-lg">
                 <p>Session with Dr Lu</p>

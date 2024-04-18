@@ -5,6 +5,7 @@ import user from "../assets/user.svg"
 import sms from "../assets/sms.svg"
 import location from "../assets/location.svg"
 import unlock from "../assets/unlock.svg"
+import { Link } from 'react-router-dom';
 
 const SignUp = () => {
   return (
@@ -69,7 +70,7 @@ const SignUp = () => {
               <button type="submit" className="shadow appearance-none border rounded-lg w-full py-4 bg-[#1A56DB] text-white px-3 font-extrabold leading-tight focus:outline-none focus:shadow-outline" >Create account</button>
             </div>
             <div className=' mt-5 text-center font-bold '>
-                <p>Already have an account? <span className='text-[#76A9FA]'> log in</span></p>
+                <p>Already have an account? <Link className='text-[#76A9FA] cursor-pointer' to="./../signin"> log in</Link></p>
             </div>
           </form>
        
