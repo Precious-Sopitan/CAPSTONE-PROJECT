@@ -38,7 +38,7 @@ const Signin = () => {
             </div>
 
             <div className="flex items-center justify-between mt-8 ">
-              <button type="submit" className="shadow appearance-none border rounded-lg w-full py-4 bg-[#1A56DB] text-white px-3 font-extrabold leading-tight focus:outline-none focus:shadow-outline" >Log In</button>
+              <Link to="../dashboard" className="shadow appearance-none border rounded-lg w-full py-4 bg-[#1A56DB] text-white px-3 font-extrabold leading-tight focus:outline-none focus:shadow-outline text-center" >Log In</Link>
             </div>
             <Link className="border-2 mt-5 border-[#F9FAFB] justify-center py-3 flex items-center">
                 <img src={google} />
