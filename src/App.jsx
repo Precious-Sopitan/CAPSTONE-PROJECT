@@ -1,7 +1,6 @@
 import SignUp from './Pages/SignUp';
 import Signin from './Pages/Signin';
 import Dashboard from './Pages/Dashboard';
-import HomePage from './Pages/HomePage';
 import GetTeraphy from './Pages/GetTeraphy'
 import {  Route, Routes } from 'react-router-dom';
 
@@ -9,7 +8,7 @@ const App = () => {
   return (
 
       <Routes>
-        <Route path="/" element={<HomePage />} /> 
+        <Route path="/" element={<Signin />} /> 
         <Route path="/signup" element={<SignUp />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/dashboard" element={<Dashboard />} />
